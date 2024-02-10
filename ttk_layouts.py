@@ -1,7 +1,9 @@
 from tkinter import *
 
 root = Tk()
-root.geometry("1300x700")
+width = 1300
+height = 600
+root.geometry(f"{width}x{height}")  # Make window size dynamic
 root.title("Calculator")
 
 # Top frame for the title

@@ -18,9 +18,13 @@ image_path = ImageTk.PhotoImage(original_image)
 # bg_image.place(relwidth=1, relheight=1)
 
 # button image
+# compound="right"
 btnimg=Image.open("logo/me.jpg").resize((20,20))
 btnimg_btn=ImageTk.PhotoImage(btnimg)
-btn=Button(root, text="click me",image=btnimg_btn, compound="right")
+btn=Button(root, text="  click me",image=btnimg_btn, compound="left")
 btn.pack()
+
+btn1=Button(root, text="  click me 2",image=btnimg_btn, compound="right")
+btn1.pack()
 
 root.mainloop()

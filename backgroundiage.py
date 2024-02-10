@@ -14,7 +14,9 @@ def resizer(e):
     bg_label.image = new_bg  # Keep a reference to avoid garbage collection
 
 window = Tk()
-window.geometry("600x700")
+width = 500
+height = 600
+window.geometry(f"{width}x{height}")  # Make window size dynamic
 window.title("Background Image")
 # window.state("zoomed")
 window.iconbitmap("logo/me.ico")

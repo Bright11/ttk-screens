@@ -1,8 +1,10 @@
 from tkinter import *
 
 root = Tk()
-root.geometry("1300x700")
-root.title("Calculator")
+width = 500
+height = 600
+root.geometry(f"{width}x{height}")  # Make window size dynamic
+root.title("Screen")
 
 # Top frame for the title
 top_frame = Frame(root, bg="blue", height=100, width=1300, relief=SUNKEN)
