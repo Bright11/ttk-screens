@@ -12,8 +12,11 @@ def center_window(window):
     x = (screen_width - width) // 2
     y = (screen_height - height) // 2
     window.geometry('{}x{}+{}+{}'.format(width, height, x, y))
+    
 
 root = tk.Tk()
+# root background image
+
 frame = ttk.Frame(root)
 
 # Configure frame content...
